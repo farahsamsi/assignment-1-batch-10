@@ -175,3 +175,44 @@ section{
     border-radius: 16px;
 }
 
+
+/* target styles */
+.target{
+    height: 409px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.target-text-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.target-skill-container{
+    height: 65%;
+    display: flex;
+    gap: 18px;
+}
+
+.skill-container{
+    width: 33%;
+    padding: 30px;
+    text-align: left;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-container img{
+    height: 49px;
+    width: 49px;
+}
+
+.skill-container a{
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+}
+
