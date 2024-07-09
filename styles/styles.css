@@ -31,7 +31,10 @@ section{
     font-size: 14px;
     opacity: 0.7;
     line-height: 18px;
+}
 
+.white{
+    color: rgb(255, 255, 255);
 }
 
 .text-center{
@@ -140,6 +143,7 @@ section{
     padding: 8px 16px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;   
+    cursor: pointer;
 }
 
 /* inspiration section styles */
@@ -216,3 +220,40 @@ section{
     font-weight: 700;
 }
 
+
+/* support section styles */
+.support{
+    height: 278px;
+    border-radius: 16px;
+    padding: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)100%), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.support button{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    padding: 16px;
+    height: 51px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.support input{
+    width: 487px;
+    height: 51px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 0.4);
+    padding: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
