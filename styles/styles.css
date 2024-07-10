@@ -189,6 +189,13 @@ section{
     justify-content: space-between;
 }
 
+.next-target{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .target-text-container{
     width: 70%;
     margin: 0 auto;
@@ -197,6 +204,13 @@ section{
 .target-skill-container{
     height: 65%;
     display: flex;
+    gap: 18px;
+}
+
+.next-target-skill-container{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
     gap: 18px;
 }
 
@@ -210,12 +224,29 @@ section{
     justify-content: space-between;
 }
 
+.next-skill-container{
+    padding: 30px;
+    text-align: left;
+    border-radius: 16px;
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.next-skill-content{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 .skill-container img{
     height: 49px;
     width: 49px;
 }
 
-.skill-container a{
+.skill-container a, .next-target-skill-container a{
     color: rgb(13, 19, 33);
     font-weight: 700;
 }
