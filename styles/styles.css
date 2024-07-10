@@ -119,6 +119,7 @@ section{
     display: flex;
     height: 25%;
     border-radius: 16px;
+    background-color: white;
 }
 .card-container-1, .card-container-3{
     justify-content: space-between;
@@ -225,12 +226,14 @@ section{
 }
 
 .next-skill-container{
-    padding: 30px;
+    padding: 35px;
     text-align: left;
     border-radius: 16px;
     display: flex;
     gap: 12px;
     margin-top: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
 }
 
 .next-skill-content{
