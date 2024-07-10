@@ -91,6 +91,8 @@ section{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    /* border: 5px solid red; */
 }
 
 .development-container{
@@ -101,7 +103,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(13, 19, 33, 0.02);
+    /* background-color: rgba(13, 19, 33, 0.02); */
 }
 
 
